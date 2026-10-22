@@ -1,7 +1,5 @@
 # E-Magazine
 
-Katalog produk hasil pendampingan ekonomi di daerah pascabencana. Situs statis berisi 43 halaman dengan navigasi interaktif, thumbnail, perbesaran, dan layar penuh.
+Katalog produk hasil pendampingan ekonomi di daerah pascabencana, berisi 43 halaman interaktif.
 
-## Deployment
-
-Deploy di Vercel dengan preset Other, tanpa build command, dan direktori output `.`.
+Situs statis; deploy di Vercel dengan preset Other, tanpa proses build, output directory `.`.

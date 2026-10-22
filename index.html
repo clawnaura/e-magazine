@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#092d48">
+<meta name="description" content="Baca 43 halaman katalog produk hasil pendampingan ekonomi di daerah pascabencana dalam e-magazine interaktif.">
+<title>Katalog Produk Pascabencana | E-Magazine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="identity"><span class="mark" aria-hidden="true">K<span>.</span></span><div><div class="eyebrow">E-MAGAZINE · BNPB</div><h1>Katalog Produk</h1><p>Pendampingan ekonomi di daerah pascabencana</p></div></div>
+ <nav aria-label="Alat baca"><button id="contents" class="tool" title="Daftar halaman" aria-expanded="false" aria-controls="drawer"><span aria-hidden="true">▦</span><span class="tool-label">Halaman</span></button><button id="zoom" class="tool" title="Perbesar halaman"><span aria-hidden="true">⌕</span><span class="tool-label">Perbesar</span></button><button id="fullscreen" class="tool" title="Layar penuh"><span aria-hidden="true">⛶</span><span class="tool-label">Layar penuh</span></button></nav>
+</header>
+<main id="reader">
+ <div class="edition"><span class="dot"></span> PRODUK LOKAL, SEMANGAT UNTUK BANGKIT</div>
+ <div id="stage"><button id="previous" class="side-arrow" aria-label="Halaman sebelumnya">‹</button><div id="book" aria-label="Katalog interaktif"><div class="sheet left" id="left"></div><div class="sheet right" id="right"></div><div id="leaf"><div class="face front"></div><div class="face back"></div></div><div class="spine"></div></div><button id="next" class="side-arrow" aria-label="Halaman berikutnya">›</button></div>
+ <div class="hint" id="hint">Klik sisi halaman atau usap untuk membalik <span>·</span> Gunakan tombol ← →</div>
+ <footer><div class="page-counter"><label for="pageNumber">Halaman</label><input id="pageNumber" type="number" min="1" max="43" value="1" aria-label="Lompat ke halaman"><span id="rangeEnd"></span><span class="total">/ 43</span></div><input id="progress" type="range" min="1" max="43" value="1" aria-label="Pilih halaman"><button id="start" title="Kembali ke sampul">Ke sampul <span aria-hidden="true">↗</span></button></footer>
+</main>
+<div id="scrim" hidden></div><aside id="drawer" aria-label="Daftar halaman" hidden><div class="drawer-head"><div><div class="eyebrow">JELAJAHI KATALOG</div><h2>Daftar halaman</h2></div><button id="closeDrawer" class="close" aria-label="Tutup daftar halaman">×</button></div><p class="drawer-note">Pilih halaman untuk langsung membacanya.</p><div id="thumbnails"></div></aside>
+<dialog id="zoomDialog" aria-labelledby="zoomTitle"><div class="zoom-head"><h2 id="zoomTitle">Perbesar halaman</h2><span>Gulir untuk membaca detail</span><button id="closeZoom" class="close" aria-label="Tutup perbesaran">×</button></div><div id="zoomImages"></div></dialog>
+<div id="announcement" class="sr-only" aria-live="polite"></div>
+<noscript>Aktifkan JavaScript di peramban untuk membaca katalog interaktif ini.</noscript>
+<script src="pages.js"></script><script src="app.js"></script>
+</body></html>
